@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Functions</title>
+
+    <script>
+        function addNumbers(a, b) {
+
+            let result = a + b;
+
+            document.getElementById("demo").innerHTML =
+                "Addition: " + result;
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Function with Parameters</h2>
+
+    <p id="demo">Click to add numbers.</p>
+
+    <button onclick="addNumbers(10, 20)">Add Numbers</button>
+
+</body>
+</html>

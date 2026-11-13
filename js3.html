@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>If Else</title>
+
+    <script>
+        function checkNumber() {
+
+            let number = 7;
+
+            if (number % 2 == 0) {
+
+                document.getElementById("demo").innerHTML =
+                    "The number is Even.";
+
+            } else {
+
+                document.getElementById("demo").innerHTML =
+                    "The number is Odd.";
+
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <h2>Even or Odd Number</h2>
+
+    <p id="demo">Click to check the number.</p>
+
+    <button onclick="checkNumber()">Check Number</button>
+
+</body>
+</html>
